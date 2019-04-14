@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+    background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -56,4 +56,39 @@ nav .brand-logo {
 
 .about-wrapper {
     background-color: white;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.my-work {
+    padding-left: 25px;
+    text-align: center;
+}
+
+.work-wrapper {
+   
+    margin: 0;
+    
+}
+
+.button-wrapper {
+text-align: center;
+}
+
+.btn-large {
+    background-color: black;
+}
+
+.contact-wrapper {
+    background-color: white;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-line {
+    text-align: center;
 }
