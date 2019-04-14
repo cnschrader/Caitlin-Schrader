@@ -5,108 +5,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <!-- resest css
 <link rel="stylesheet" href="assets/css/reset.css"> -->
 
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 <!-- custom css file -->
 <link rel="stylesheet" href="assets/css/updated.css">
 
 <body>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
     <!-- nav bar -->
-    <nav class="navbar-color">
+<div class="navbar-fixed">
+    <nav class="navbar-color z-depth-0">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Caitlin Schrader</a>
-            <ul id="nav-mobile" class="right">
-                <li><a href="sass.html">About</a></li>
-                <li><a href="badges.html">Portfolio</a></li>
+            <a href="#!" class="brand-logo">Caitlin Schrader</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#place">About</a></li>
+                <li><a href="badges.html">My Work</a></li>
                 <li><a href="collapsible.html">Contact</a></li>
+                
             </ul>
         </div>
     </nav>
 
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+</div>
+
+
+
+
     <!-- space between nav bar and bio -->
-     <br><br><br><br> 
+    <br><br><br><br>
 
 
-    <!-- short bio and picture -->
-    <div class="container about-background z-depth-2">
-         <div class="row">
+    <!-- What user initially sees -->
+    <h1>FULLSTACK</h1>
+    <h1>DEVELOPER</h1>
+    
+           
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+   
+
+    <!-- about me section -->
+    <div class="about-wrapper">
+    <div class="container">
+        <div class="row">
             <div class="col s12 m12 l12">
-                
-                    <h4>About Me</h4>
+                    <h3> <a id="place"></a>ABOUT ME</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                    <img src="assets/images/placeholder.png" alt="placeholder">
+            </div>
+            <div class="col s12 m8 l8">
+                    <p class="about-size"> Hi! My name is Caitlin Schrader, and I am a Web Developer/Software Developer. I enjoy both art
+                        and science, which is why this field is so interesting to me. Creating something artistically
+                        expressive brings me just as much joy as learning how something intricate works. My mind is
+                        energized when faced with trying to figure out the inner workings of a complex system. Within
+                        the field of Web/Software Development I'm looking forward to continuing being a learner of how
+                        art and science intersect with each other.
 
+                    </p>
+
+
+
+                    <p class="about-size"> Aside from Web/Software development, here are a few other facts about myself. I am from Alabama,
+                        and have a degree in the Humanities. I really enjoy art, dancing, board games, watching movies,
+                        traveling, and exploring new places.
+
+                    </p>
                 </div>
-                    
-                    <div class="row">
-                        <div class="col s4 m4">
-                            <img src="assets/images/placeholder.png" alt="placeholder">
-                        </div> 
-
-                        <div class="col s8 m8">
-                                <p> Hi! My name is Caitlin Schrader, and I am a Web Developer/Software Developer. I enjoy both art and science, which is why this field is so interesting to me. Creating something artistically expressive brings me just as much joy as learning how something intricate works. My mind is energized when faced with trying to figure out the inner workings of a complex system. Within the field of Web/Software Development I'm looking forward to continuing being a learner of how art and science intersect with each other. 
-        
-                                    </p>
-                          
-                                    
-                          
-                                    <p> Aside from Web/Software development, here are a few other facts about myself. I am from Alabama, and have a degree in the Humanities. I really enjoy art, dancing, board games, watching movies, traveling, and exploring new places. 
-                          
-                                    </p>
-                        </div>
-                    </div>
-                
-            
         </div>
     </div>
-
-
-     <!-- footer -->
-     
-    
-    
-        
+</div>
 
 
 
 
 
 
+    <!-- footer -->
 
-<!-- Jquery min link -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- personal js file -->
-<script src="assets/javascript/updated.js"></script>
+
+
+
+
+
+
+
+
+
+    <!-- Jquery min link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- personal js file -->
+    <script src="assets/javascript/updated.js"></script>
 </body>
 
 </html>

@@ -1,8 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-image: url("https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
     background-repeat: no-repeat;
     background-size: cover;
   
+}
+
+nav ul a {
+    color: black;
+}
+
+h1 {
+    padding-left: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.about-size {
+    font-size: 17px;
+    line-height: 2;
 }
 
 .footer {
@@ -18,16 +37,23 @@ body {
 
 }
 
-.navbar-fixed {
-    margin-top: auto!important;
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-}
+
 
 .navbar-color {
-    background-color: #d0a27c;
+    background: rgba(255, 255, 255, 0);
+    
 }
 
 .about-background {
+    background-color: white;
+}
+
+nav .brand-logo {
+    padding-left: 15px;
+    color: black;
+
+}
+
+.about-wrapper {
     background-color: white;
 }
