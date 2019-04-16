@@ -20,6 +20,9 @@
 <!-- font awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Cardo|EB+Garamond|Libre+Baskerville|Noto+Sans|Noto+Sans+JP|PT+Serif|Roboto+Condensed" rel="stylesheet">
+
 
 <!-- custom css file -->
 <link rel="stylesheet" href="assets/css/updated.css">
@@ -32,9 +35,9 @@
 
     <!-- nav bar -->
 <div class="navbar-fixed">
-    <nav class="navbar-color z-depth-0">
+    <nav class="navbar-color z-depth-0" id="start-change">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Caitlin Schrader</a>
+            <a href="#fullstack" class="brand-logo">Caitlin Schrader</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#place">About</a></li>
@@ -46,10 +49,10 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#place">About</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+       
     </ul>
 </div>
 
@@ -61,8 +64,8 @@
 
 
     <!-- What user initially sees -->
-    <h1>FULLSTACK</h1>
-    <h1>DEVELOPER</h1>
+    <h1> <a id="fullstack"></a> FULLSTACK <br> DEVELOPER</h1>
+    <!-- <h1>DEVELOPER</h1> -->
 
     <br>
 
@@ -76,10 +79,12 @@
 
     <!-- about me section -->
     <div class="about-wrapper">
+        <h1 id="place"></h1>
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
-                    <h4 class="about-title"> <a id="place"></a>ABOUT ME</h3>
+                <br><br><br><br>
+                    <h4 class="about-title title-fonts"> ABOUT ME</h3>
             </div>
         </div>
         <div class="row">
@@ -105,14 +110,20 @@
                     </p>
                 </div>
         </div>
+        <h1 id="work"></h1>
+
+        <br><br><br><br>
     </div>
 </div>
+
+<br><br>
 
 
 <!-- my work section -->
 
 <div class="work-wrapper">
-<h4 class="my-work"><a id="work"></a>MY WORK</h4>
+    
+<h4 class="my-work title-fonts">MY WORK</h4>
 
 <div class="container">
     <div class="row">
@@ -171,15 +182,40 @@
 <br><br><br><br><br><br>
 
 <div class="contact-wrapper">
-<h4 class="contact-title"> <a id="contact"></a> Contact</h4>
+    <br><br><br>
+<h4 class="contact-title title-fonts"> <a id="contact"></a> CONTACT</h4>
 
-<h5 class="contact-line">Have questions or want to connect?</h5>
+<h5 class="contact-line">Have questions or want to connect? Check out my GitHub and LinkedIn.</h5>
 
-<div class="container">
+<br>
+
+<div class="profile-wrapper">
+<a class="waves-effect waves-light btn-large"><i class="fab fa-github"></i> GitHub</a>
+<br><br>
+<a class="waves-effect waves-light btn-large" href="https://www.linkedin.com/in/caitlin-schrader-878817149/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+
+<br><br>
+
+<div class="container info-wrapper">
         <i class="fas fa-phone"></i> 
         <span>205-876-6452</span>
+
+        <br>
+
+        <i class="far fa-envelope"></i>
+        <span>c.n.schrader22@gmail.com</span>
+
+        <br>
+
+        <i class="far fa-file-pdf"></i>
+        <a href="#">My Resume</a>
+
+        <br><br><br><br><br><br>
 </div>
 </div>
+
+
 
 
 

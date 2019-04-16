@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80");
+    background-image: url("https://images.unsplash.com/46/iYvDeqVGRbebiQv2PIJi_DSC_8407.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
     background-repeat: no-repeat;
-    background-size: cover;
-  
+   background-size: contain;
 }
 
 nav ul a {
@@ -24,25 +23,25 @@ h1 {
     line-height: 2;
 }
 
-.footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
 
-}
 
 
 
 .navbar-color {
     background: rgba(255, 255, 255, 0);
+   
+    
     
 }
+
+i.material-icons {
+    color: black;
+}
+
+/* .navbar-color.scrolled {
+    background-color: #3d3f50 !important;
+    transition: background-color  linear;
+  } */
 
 .about-background {
     background-color: white;
@@ -91,4 +90,24 @@ text-align: center;
 
 .contact-line {
     text-align: center;
+}
+
+.info-wrapper {
+    text-align: center;
+}
+
+.profile-wrapper {
+    text-align: center;
+}
+
+.title-fonts {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#fullstack {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sidenav-overlay {
+    background-color:rgba(175, 179, 191, 0);
 }
