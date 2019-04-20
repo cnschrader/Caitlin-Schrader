@@ -16,6 +16,7 @@ h1 {
     padding-left: 100px;
     text-align: center;
     font-size: 100px;
+    color: white;
 }
 
 .about-size {
@@ -110,4 +111,36 @@ text-align: center;
 
 .sidenav-overlay {
     background-color:rgba(175, 179, 191, 0);
+   z-index: -7;
 }
+
+.profile-pic {
+    height: 250px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 772px) {
+    h1 {
+        padding-left: 50px;
+        text-align: center;
+        font-size: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+      body{
+          background-size: contain;
+      }
+
+      h1 {
+        padding-left: 25px;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .brand-logo {
+          font-size: 15px;
+      }
+      
+  }
+
