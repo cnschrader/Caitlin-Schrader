@@ -13,10 +13,17 @@ nav ul a {
 }
 
 h1 {
+    opacity: 1;
     padding-left: 100px;
     text-align: center;
     font-size: 100px;
     color: white;
+    transition: opacity, .6s, ease-in-out;
+}
+
+
+div.hidden{
+    display: none;
 }
 
 .about-size {
