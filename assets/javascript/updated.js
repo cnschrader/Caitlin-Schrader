@@ -26,5 +26,5 @@ $(document).ready(function(){
   });
 
   $(document).ready(function () {
-    $('div.hidden').fadeIn(1000).removeClass('hidden');
+    $('div.hidden').fadeIn(1100).removeClass('hidden');
 });
