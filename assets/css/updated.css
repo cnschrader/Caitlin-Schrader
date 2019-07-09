@@ -126,6 +126,14 @@ text-align: center;
     width: 80%;
 }
 
+.hidden-button{
+    display: none;
+}
+
+.hidden-logo{
+    display: none;
+}
+
 @media only screen and (max-width: 772px) {
     h1 {
         padding-left: 50px;
@@ -134,20 +142,47 @@ text-align: center;
     }
   }
 
+  @media only screen and (max-width: 450px){
+    .hidden-logo{
+        display: inline;
+        text-align: center;
+    }
+
+    .hide-logo{
+        display: none;
+    }
+  }
+
   @media only screen and (max-width: 375px) {
       body{
-          background-size: contain;
+          background-size: cover;
       }
 
       h1 {
-        padding-left: 25px;
+        padding-left: 15px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
       }
 
       .brand-size {
           font-size: 15px;
       }
       
+      .hidden-button{
+          display: block;
+      }
   }
 
+  @media only screen and (max-width: 325px){
+      .hidden-button{
+          display: block;
+      }
+
+      .btn-large{
+          display: none;
+      }
+
+      
+
+      
+  }
