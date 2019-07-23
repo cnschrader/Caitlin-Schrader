@@ -3,13 +3,14 @@ html {
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1505562130589-9879683e72da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-image: url('../images/schrader_website.png');
     background-repeat: no-repeat;
    background-size: contain;
+   
 }
 
 nav ul a {
-    color: black;
+    color: white;
 }
 
 h1 {
@@ -57,7 +58,7 @@ i.material-icons {
 
 nav .brand-logo {
     padding-left: 15px;
-    color: black;
+    color: white;
 
 }
 
@@ -134,7 +135,12 @@ text-align: center;
     display: none;
 }
 
-@media only screen and (max-width: 772px) {
+.fa-cheveron-down{
+    display: inline-block;
+   
+}
+
+/* @media only screen and (max-width: 772px) {
     h1 {
         padding-left: 50px;
         text-align: center;
@@ -155,17 +161,18 @@ text-align: center;
 
   @media only screen and (max-width: 375px) {
       body{
-          background-size: cover;
+          background-size: contain;
       }
 
-      h1 {
+      /* h1 {
         padding-left: 15px;
         text-align: center;
         font-size: 15px;
-      }
+      } */
 
-      .brand-size {
+      /* .brand-size {
           font-size: 15px;
+          text-align: center;
       }
       
       .hidden-button{
@@ -185,4 +192,4 @@ text-align: center;
       
 
       
-  }
+  } */
