@@ -6,7 +6,8 @@ body {
     background-image: url('../images/schrader_website.png');
     background-repeat: no-repeat;
    background-size: contain;
-   /* min-width: 500px; */
+   /* min-width: 100%;
+   min-height: 100%; */
    
 }
 
