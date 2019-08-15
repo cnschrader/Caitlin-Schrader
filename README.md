@@ -2,7 +2,9 @@
 
 ## About the app
 
-A portfolio with a brand statement, curated projects displayed, and a contact section. 
+A portfolio with a brand statement, curated projects displayed, and a contact section. All content is displayed on one page, making it easy to navigate!
+
+Check out the deployed product [here](https://cnschrader.github.io/Caitlin-Schrader/)!
 
 ## Technologies used in this application
 
