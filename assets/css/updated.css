@@ -195,3 +195,11 @@ text-align: center;
 
       
   } */
+
+  @media only screen and (max-width: 400px){
+      body{
+        background-image: url('../images/schrader_mobile.png');
+        background-repeat: no-repeat;
+       background-size: contain;
+      }
+  };
